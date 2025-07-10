@@ -1,5 +1,6 @@
 import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 import './gallery-style.css'
+import galImg from './gallery-img/picgallery.png'
 
 
 
@@ -11,7 +12,7 @@ export function Gallery(){
         Nuestros productos
       </h2> */}
       <div className="img p-0 m-0">
-        <img className='img-fluid' src="/public/img/hero.png" alt="" />
+        <img className='img-fluid' src={galImg} alt="" />
         
         {/* {productos.map((item, i) => (
           <Col key={i}>

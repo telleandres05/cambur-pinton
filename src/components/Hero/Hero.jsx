@@ -8,10 +8,6 @@ export function Hero() {
     <div
       className="hero-section d-flex align-items-center hero-bg"
       style={{
-        backgroundImage: ('/src/assets/navbg.png') ,
-        // backgroundSize: 'cover',
-        // backgroundPosition: 'center',
-        // height: '90vh',
         color: '#003333',
         fontFamily: 'Magic Retro'
       }}
