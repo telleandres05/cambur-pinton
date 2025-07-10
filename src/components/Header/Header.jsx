@@ -1,6 +1,6 @@
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import './header-sytyle.css'
-
+import logo from './img-header/logo.png'
 
 export function Header(){
 
@@ -9,7 +9,7 @@ export function Header(){
       <Container>
         <Navbar.Brand href="#home">
           <img
-            src="/public/img/logotipo sin fondo.png"
+            src={logo}
             alt="Cambur Pintón"
             className="img-fluid"
             style={{ height: '40px' }}
