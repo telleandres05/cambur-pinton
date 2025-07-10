@@ -1,0 +1,27 @@
+.hero-section {
+  position: relative;
+  padding: 5rem 0;
+    width: 100vw;
+    margin: 0,}
+
+
+.hero-section h1 {
+  text-shadow: 2px 2px #ffffff;
+}
+
+.hero-section .btn-success {
+  background-color: #00A151;
+  border: none;
+}
+.hero-section .btn-success:hover {
+  background-color: #669966;
+}
+
+.hero-bg {
+  background-image: url('/src/assets/navbg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+ 

@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #ffffff;
+  font-family: 'Baskerville Old Face', serif;
+  padding: 0;
+}
+
+.nav-link {
+  color: #003333 !important;
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  color: #00A151 !important;
+  text-decoration: underline;
+}
+
+/* .navbar-bg {
+  
+} */
